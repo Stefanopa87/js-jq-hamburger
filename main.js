@@ -21,7 +21,7 @@ function init2(){
   $('.fas').click(premi);
 }
 
-init2();
+// init2();
 
 // ----------------------------------
 
@@ -34,3 +34,18 @@ function init3(){
 // init3();
 
 // ----------------------------------
+
+// con HOVER metto e levo ogni volta che passo passasopra
+// CON FUNZIONE ***DICHIARATA***
+
+function passaSopra(){
+  $('.hamburger-menu').toggleClass('active');
+}
+
+function init4(){
+  $('.fas').hover(passaSopra);
+}
+
+// init4();
+
+// ---------------------------------
